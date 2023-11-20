@@ -1,0 +1,6 @@
+[submodule "mn-bab-verification"]
+	path = mn-bab-verification
+	url = https://github.com/sgsikorski/mn-bab-verification
+[submodule "AGL-STAN"]
+	path = AGL-STAN
+	url = https://github.com/Yonoi/AGL-STAN.git
