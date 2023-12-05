@@ -1,0 +1,852 @@
+
+Device Info:
+
+Python Version:
+3.10.2 (v3.10.2:a58ebcc701, Jan 13 2022, 14:50:16) [Clang 13.0.0 (clang-1300.0.29.30)]
+
+Torch Version:
+2.1.0
+CUDA Version:
+None
+CUDA PATH:
+None
+CUDA Home:
+None
+
+Correctly predicted instance:  0
+====================
+Verifying instance number: 0
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.026313304901123
+Verified instance:  0
+Iteration time:  1.0266621112823486
+Running average verification time: 1.0266621112823486
+Correct 1 out of 1
+Verified 1 out of 1
+Disproved 0 out of 0
+
+Network fails on instance 1, skipping.
+
+Correctly predicted instance:  2
+====================
+Verifying instance number: 2
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.1081089973449707
+Disproved instance:  2
+Iteration time:  1.1084458827972412
+Running average verification time: 1.067553997039795
+Correct 2 out of 3
+Verified 1 out of 1
+Disproved 1 out of 1
+
+Correctly predicted instance:  3
+====================
+Verifying instance number: 3
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0396568775177002
+Verified instance:  3
+Iteration time:  1.0399529933929443
+Running average verification time: 1.0583536624908447
+Correct 3 out of 4
+Verified 2 out of 2
+Disproved 1 out of 1
+
+Correctly predicted instance:  4
+====================
+Verifying instance number: 4
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0334360599517822
+Verified instance:  4
+Iteration time:  1.033729076385498
+Running average verification time: 1.052197515964508
+Correct 4 out of 5
+Verified 3 out of 3
+Disproved 1 out of 1
+
+Correctly predicted instance:  5
+====================
+Verifying instance number: 5
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.092069149017334
+Disproved instance:  5
+Iteration time:  1.0923898220062256
+Running average verification time: 1.0602359771728516
+Correct 5 out of 6
+Verified 3 out of 3
+Disproved 2 out of 2
+
+Correctly predicted instance:  6
+====================
+Verifying instance number: 6
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.1008691787719727
+Disproved instance:  6
+Iteration time:  1.1011991500854492
+Running average verification time: 1.0670631726582844
+Correct 6 out of 7
+Verified 3 out of 3
+Disproved 3 out of 3
+
+Correctly predicted instance:  7
+====================
+Verifying instance number: 7
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0356221199035645
+Verified instance:  7
+Iteration time:  1.0360889434814453
+Running average verification time: 1.062638282775879
+Correct 7 out of 8
+Verified 4 out of 4
+Disproved 3 out of 3
+
+Correctly predicted instance:  8
+====================
+Verifying instance number: 8
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0170559883117676
+Verified instance:  8
+Iteration time:  1.0173490047454834
+Running average verification time: 1.0569771230220795
+Correct 8 out of 9
+Verified 5 out of 5
+Disproved 3 out of 3
+
+Network fails on instance 9, skipping.
+
+Correctly predicted instance:  10
+====================
+Verifying instance number: 10
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0941441059112549
+Disproved instance:  10
+Iteration time:  1.0944850444793701
+Running average verification time: 1.0611446698506672
+Correct 9 out of 11
+Verified 5 out of 5
+Disproved 4 out of 4
+
+Correctly predicted instance:  11
+====================
+Verifying instance number: 11
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0295381546020508
+Verified instance:  11
+Iteration time:  1.0298099517822266
+Running average verification time: 1.0580111980438232
+Correct 10 out of 12
+Verified 6 out of 6
+Disproved 4 out of 4
+
+Correctly predicted instance:  12
+====================
+Verifying instance number: 12
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0329437255859375
+Verified instance:  12
+Iteration time:  1.0332322120666504
+Running average verification time: 1.0557585629549893
+Correct 11 out of 13
+Verified 7 out of 7
+Disproved 4 out of 4
+
+Correctly predicted instance:  13
+====================
+Verifying instance number: 13
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0998589992523193
+Disproved instance:  13
+Iteration time:  1.1001808643341064
+Running average verification time: 1.059460421403249
+Correct 12 out of 14
+Verified 7 out of 7
+Disproved 5 out of 5
+
+Network fails on instance 14, skipping.
+
+Correctly predicted instance:  15
+====================
+Verifying instance number: 15
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.042659044265747
+Verified instance:  15
+Iteration time:  1.0429461002349854
+Running average verification time: 1.0581900890056903
+Correct 13 out of 16
+Verified 8 out of 8
+Disproved 5 out of 5
+
+Network fails on instance 16, skipping.
+
+Network fails on instance 17, skipping.
+
+Network fails on instance 18, skipping.
+
+Correctly predicted instance:  19
+====================
+Verifying instance number: 19
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0338518619537354
+Verified instance:  19
+Iteration time:  1.0341529846191406
+Running average verification time: 1.0564731529780798
+Correct 14 out of 20
+Verified 9 out of 9
+Disproved 5 out of 5
+
+Network fails on instance 20, skipping.
+
+Network fails on instance 21, skipping.
+
+Correctly predicted instance:  22
+====================
+Verifying instance number: 22
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0967991352081299
+Disproved instance:  22
+Iteration time:  1.097118854522705
+Running average verification time: 1.059182866414388
+Correct 15 out of 23
+Verified 9 out of 9
+Disproved 6 out of 6
+
+Correctly predicted instance:  23
+====================
+Verifying instance number: 23
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0340421199798584
+Verified instance:  23
+Iteration time:  1.034332036972046
+Running average verification time: 1.0576296895742416
+Correct 16 out of 24
+Verified 10 out of 10
+Disproved 6 out of 6
+
+Network fails on instance 24, skipping.
+
+Correctly predicted instance:  25
+====================
+Verifying instance number: 25
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0964879989624023
+Disproved instance:  25
+Iteration time:  1.0968098640441895
+Running average verification time: 1.0599344057195328
+Correct 17 out of 26
+Verified 10 out of 10
+Disproved 7 out of 7
+
+Network fails on instance 26, skipping.
+
+Correctly predicted instance:  27
+====================
+Verifying instance number: 27
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0282258987426758
+Verified instance:  27
+Iteration time:  1.0285069942474365
+Running average verification time: 1.0581884384155273
+Correct 18 out of 28
+Verified 11 out of 11
+Disproved 7 out of 7
+
+Network fails on instance 28, skipping.
+
+Correctly predicted instance:  29
+====================
+Verifying instance number: 29
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.1618890762329102
+Disproved instance:  29
+Iteration time:  1.162231206893921
+Running average verification time: 1.0636643735986007
+Correct 19 out of 30
+Verified 11 out of 11
+Disproved 8 out of 8
+
+Correctly predicted instance:  30
+====================
+Verifying instance number: 30
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.1704182624816895
+Disproved instance:  30
+Iteration time:  1.170809030532837
+Running average verification time: 1.0690216064453124
+Correct 20 out of 31
+Verified 11 out of 11
+Disproved 9 out of 9
+
+Correctly predicted instance:  31
+====================
+Verifying instance number: 31
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.043475866317749
+Verified instance:  31
+Iteration time:  1.0437591075897217
+Running average verification time: 1.067818630309332
+Correct 21 out of 32
+Verified 12 out of 12
+Disproved 9 out of 9
+
+Network fails on instance 32, skipping.
+
+Correctly predicted instance:  33
+====================
+Verifying instance number: 33
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0995819568634033
+Disproved instance:  33
+Iteration time:  1.0998969078063965
+Running average verification time: 1.0692767338319258
+Correct 22 out of 34
+Verified 12 out of 12
+Disproved 10 out of 10
+
+Network fails on instance 34, skipping.
+
+Correctly predicted instance:  35
+====================
+Verifying instance number: 35
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0227668285369873
+Verified instance:  35
+Iteration time:  1.0230481624603271
+Running average verification time: 1.067266795946204
+Correct 23 out of 36
+Verified 13 out of 13
+Disproved 10 out of 10
+
+Network fails on instance 36, skipping.
+
+Correctly predicted instance:  37
+====================
+Verifying instance number: 37
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0973341464996338
+Disproved instance:  37
+Iteration time:  1.0976629257202148
+Running average verification time: 1.0685333013534546
+Correct 24 out of 38
+Verified 13 out of 13
+Disproved 11 out of 11
+
+Network fails on instance 38, skipping.
+
+Correctly predicted instance:  39
+====================
+Verifying instance number: 39
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0374839305877686
+Verified instance:  39
+Iteration time:  1.0377798080444336
+Running average verification time: 1.0673031616210937
+Correct 25 out of 40
+Verified 14 out of 14
+Disproved 11 out of 11
+
+Correctly predicted instance:  40
+====================
+Verifying instance number: 40
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.022723913192749
+Verified instance:  40
+Iteration time:  1.022995948791504
+Running average verification time: 1.065599038050725
+Correct 26 out of 41
+Verified 15 out of 15
+Disproved 11 out of 11
+
+Network fails on instance 41, skipping.
+
+Network fails on instance 42, skipping.
+
+Network fails on instance 43, skipping.
+
+Correctly predicted instance:  44
+====================
+Verifying instance number: 44
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0240402221679688
+Verified instance:  44
+Iteration time:  1.0243198871612549
+Running average verification time: 1.064070180610374
+Correct 27 out of 45
+Verified 16 out of 16
+Disproved 11 out of 11
+
+Correctly predicted instance:  45
+====================
+Verifying instance number: 45
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0962910652160645
+Disproved instance:  45
+Iteration time:  1.0965850353240967
+Running average verification time: 1.0652314254215784
+Correct 28 out of 46
+Verified 16 out of 16
+Disproved 12 out of 12
+
+Correctly predicted instance:  46
+====================
+Verifying instance number: 46
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0979602336883545
+Disproved instance:  46
+Iteration time:  1.0982589721679688
+Running average verification time: 1.0663703063438679
+Correct 29 out of 47
+Verified 16 out of 16
+Disproved 13 out of 13
+
+Correctly predicted instance:  47
+====================
+Verifying instance number: 47
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0376110076904297
+Verified instance:  47
+Iteration time:  1.037881851196289
+Running average verification time: 1.0654206911722819
+Correct 30 out of 48
+Verified 17 out of 17
+Disproved 13 out of 13
+
+Network fails on instance 48, skipping.
+
+Network fails on instance 49, skipping.
+
+Network fails on instance 50, skipping.
+
+Correctly predicted instance:  51
+====================
+Verifying instance number: 51
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0229880809783936
+Verified instance:  51
+Iteration time:  1.0232679843902588
+Running average verification time: 1.064060926437378
+Correct 31 out of 52
+Verified 18 out of 18
+Disproved 13 out of 13
+
+Network fails on instance 52, skipping.
+
+Correctly predicted instance:  53
+====================
+Verifying instance number: 53
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.109802007675171
+Disproved instance:  53
+Iteration time:  1.1100938320159912
+Running average verification time: 1.0654994547367096
+Correct 32 out of 54
+Verified 18 out of 18
+Disproved 14 out of 14
+
+Correctly predicted instance:  54
+====================
+Verifying instance number: 54
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.102083683013916
+Disproved instance:  54
+Iteration time:  1.1024177074432373
+Running average verification time: 1.0666181896672104
+Correct 33 out of 55
+Verified 18 out of 18
+Disproved 15 out of 15
+
+Correctly predicted instance:  55
+====================
+Verifying instance number: 55
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.029893159866333
+Verified instance:  55
+Iteration time:  1.0301649570465088
+Running average verification time: 1.0655460357666016
+Correct 34 out of 56
+Verified 19 out of 19
+Disproved 15 out of 15
+
+Network fails on instance 56, skipping.
+
+Network fails on instance 57, skipping.
+
+Network fails on instance 58, skipping.
+
+Correctly predicted instance:  59
+====================
+Verifying instance number: 59
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0298612117767334
+Verified instance:  59
+Iteration time:  1.03019380569458
+Running average verification time: 1.064535972050258
+Correct 35 out of 60
+Verified 20 out of 20
+Disproved 15 out of 15
+
+Network fails on instance 60, skipping.
+
+Correctly predicted instance:  61
+====================
+Verifying instance number: 61
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.1043400764465332
+Disproved instance:  61
+Iteration time:  1.104649305343628
+Running average verification time: 1.0656502313084073
+Correct 36 out of 62
+Verified 20 out of 20
+Disproved 16 out of 16
+
+Correctly predicted instance:  62
+====================
+Verifying instance number: 62
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0897769927978516
+Disproved instance:  62
+Iteration time:  1.090090036392212
+Running average verification time: 1.0663107665809426
+Correct 37 out of 63
+Verified 20 out of 20
+Disproved 17 out of 17
+
+Correctly predicted instance:  63
+====================
+Verifying instance number: 63
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0349841117858887
+Verified instance:  63
+Iteration time:  1.0352790355682373
+Running average verification time: 1.065494142080608
+Correct 38 out of 64
+Verified 21 out of 21
+Disproved 17 out of 17
+
+Network fails on instance 64, skipping.
+
+Correctly predicted instance:  65
+====================
+Verifying instance number: 65
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.106553077697754
+Disproved instance:  65
+Iteration time:  1.1068830490112305
+Running average verification time: 1.0665553961044703
+Correct 39 out of 66
+Verified 21 out of 21
+Disproved 18 out of 18
+
+Correctly predicted instance:  66
+====================
+Verifying instance number: 66
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0962481498718262
+Disproved instance:  66
+Iteration time:  1.096562147140503
+Running average verification time: 1.067305564880371
+Correct 40 out of 67
+Verified 21 out of 21
+Disproved 19 out of 19
+
+Network fails on instance 67, skipping.
+
+Network fails on instance 68, skipping.
+
+Correctly predicted instance:  69
+====================
+Verifying instance number: 69
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0990777015686035
+Disproved instance:  69
+Iteration time:  1.09944486618042
+Running average verification time: 1.0680894502779332
+Correct 41 out of 70
+Verified 21 out of 21
+Disproved 20 out of 20
+
+Correctly predicted instance:  70
+====================
+Verifying instance number: 70
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0926289558410645
+Disproved instance:  70
+Iteration time:  1.0929269790649414
+Running average verification time: 1.0686808200109572
+Correct 42 out of 71
+Verified 21 out of 21
+Disproved 21 out of 21
+
+Network fails on instance 71, skipping.
+
+Network fails on instance 72, skipping.
+
+Correctly predicted instance:  73
+====================
+Verifying instance number: 73
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.1096827983856201
+Disproved instance:  73
+Iteration time:  1.1099870204925537
+Running average verification time: 1.0696414293244827
+Correct 43 out of 74
+Verified 21 out of 21
+Disproved 22 out of 22
+
+Network fails on instance 74, skipping.
+
+Correctly predicted instance:  75
+====================
+Verifying instance number: 75
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.042863130569458
+Verified instance:  75
+Iteration time:  1.0431430339813232
+Running average verification time: 1.0690391930666836
+Correct 44 out of 76
+Verified 22 out of 22
+Disproved 22 out of 22
+
+Network fails on instance 76, skipping.
+
+Correctly predicted instance:  77
+====================
+Verifying instance number: 77
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0981090068817139
+Disproved instance:  77
+Iteration time:  1.0984089374542236
+Running average verification time: 1.0696918540530735
+Correct 45 out of 78
+Verified 22 out of 22
+Disproved 23 out of 23
+
+Network fails on instance 78, skipping.
+
+Correctly predicted instance:  79
+====================
+Verifying instance number: 79
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0197439193725586
+Verified instance:  79
+Iteration time:  1.020029067993164
+Running average verification time: 1.0686122282691624
+Correct 46 out of 80
+Verified 23 out of 23
+Disproved 23 out of 23
+
+Network fails on instance 80, skipping.
+
+Network fails on instance 81, skipping.
+
+Network fails on instance 82, skipping.
+
+Network fails on instance 83, skipping.
+
+Correctly predicted instance:  84
+====================
+Verifying instance number: 84
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0923762321472168
+Disproved instance:  84
+Iteration time:  1.0926928520202637
+Running average verification time: 1.0691245819659942
+Correct 47 out of 85
+Verified 23 out of 23
+Disproved 24 out of 24
+
+Correctly predicted instance:  85
+====================
+Verifying instance number: 85
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0874030590057373
+Disproved instance:  85
+Iteration time:  1.0877048969268799
+Running average verification time: 1.0695116718610127
+Correct 48 out of 86
+Verified 23 out of 23
+Disproved 25 out of 25
+
+Correctly predicted instance:  86
+====================
+Verifying instance number: 86
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.092991828918457
+Disproved instance:  86
+Iteration time:  1.0933082103729248
+Running average verification time: 1.069997315504113
+Correct 49 out of 87
+Verified 23 out of 23
+Disproved 26 out of 26
+
+Correctly predicted instance:  87
+====================
+Verifying instance number: 87
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Total instance time: 1.0241427421569824
+Verified instance:  87
+Iteration time:  1.0244169235229492
+Running average verification time: 1.0690857076644897
+Correct 50 out of 88
+Verified 24 out of 24
+Disproved 26 out of 26
+
+Network fails on instance 88, skipping.
+
+Correctly predicted instance:  89
+====================
+Verifying instance number: 89
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.082597017288208
+Disproved instance:  89
+Iteration time:  1.0829050540924072
+Running average verification time: 1.0693566752415078
+Correct 51 out of 90
+Verified 24 out of 24
+Disproved 27 out of 27
+
+Network fails on instance 90, skipping.
+
+Network fails on instance 91, skipping.
+
+Correctly predicted instance:  92
+====================
+Verifying instance number: 92
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0955069065093994
+Disproved instance:  92
+Iteration time:  1.0958220958709717
+Running average verification time: 1.0698656256382282
+Correct 52 out of 93
+Verified 24 out of 24
+Disproved 28 out of 28
+
+Correctly predicted instance:  93
+====================
+Verifying instance number: 93
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0853538513183594
+Disproved instance:  93
+Iteration time:  1.0856680870056152
+Running average verification time: 1.0701637852866694
+Correct 53 out of 94
+Verified 24 out of 24
+Disproved 29 out of 29
+
+Correctly predicted instance:  94
+====================
+Verifying instance number: 94
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.0977728366851807
+Disproved instance:  94
+Iteration time:  1.0980958938598633
+Running average verification time: 1.0706810465565435
+Correct 54 out of 95
+Verified 24 out of 24
+Disproved 30 out of 30
+
+Network fails on instance 95, skipping.
+
+Network fails on instance 96, skipping.
+
+Correctly predicted instance:  97
+====================
+Verifying instance number: 97
+Analyzing 1 input regions with at most 4928/4928 non-zero-width inputs and neurons-parameters: 1892352-6358929
+deep poly lower bounds: [2242.72998046875]
+Adex found via initial DP
+Total instance time: 1.099708080291748
+Disproved instance:  97
+Iteration time:  1.10090970993042
+Running average verification time: 1.0712306586178866
+Correct 55 out of 98
+Verified 24 out of 24
+Disproved 31 out of 31
+
+Network fails on instance 98, skipping.
+
+Network fails on instance 99, skipping.
+
+Total time:  60.91645288467407

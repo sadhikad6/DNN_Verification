@@ -1,8 +1,12 @@
+'''
+Preprocess the data to be used for the verifier
+Loads in the combined adjacency and crime matrices and uses AGLSTAN dataloader
+to format the data in a 8 x 77 x 8 input matrix with a singular label matrix.
+This label cooresponds to the [idx // 77][idx % 8] entry of the crime matrix
+'''
 import os
-#from PIL import Image
 import torch
 import csv
-#from transformers import YolosForObjectDetection, YolosImageProcessor
 import numpy as np
 
 import AGLSTAN.code.model.AGLSTAN as AGLSTAN
@@ -44,47 +48,3 @@ with open("data/chi/crime.csv", "w+") as f:
             for j in range(8):
                 row = [int(y[0][i][j])] + x
                 writer.writerow(row)
-
-# Predict if x^k_i is 1 or 0
-# with open("data/res/chi/chi.csv", "w+") as f:
-#     writer = csv.writer(f)
-#     xs = []
-#     ys = []
-#     # (8, 77, 8), (1, 77, 8)
-#     for x, y in val_loader.dataset:
-#         x1 = x.tolist()
-#         y1 = y.tolist()
-#         xs.append(x1)
-#         ys.append(y1)
-    
-#     xs = np.array(xs).astype(int)
-#     ys = np.array(ys).astype(int)
-
-#     xs = np.transpose(xs, (2, 3, 0, 1))
-#     ys = np.transpose(ys, (2, 3, 0, 1))
-
-#     for i in range(77):
-#         for j in range(8):
-#             for k in range(8):
-#                 x2 = xs[i][j][k]
-#                 y2 = ys[i][j][k]
-#                 row = y2.tolist() + x2.tolist()
-#                 writer.writerow(row)
-            #row = y2.tolist() + x2.tolist()
-            #writer.writerow(row)
-        # x1 = np.transpose(x1, (2, 1, 0))
-        # y1 = np.transpose(y1, (2, 1, 0))
-
-        # for i in range(8):
-        #     for j in range(77):
-        #         x2 = x1[i][j]
-        #         y2 = y1[i][j]
-        #         row = y2.tolist() + x2.tolist()
-        #         writer.writerow(row)
-        # print(f"X: {x.shape}, Y: {y.shape}")
-# for x, y in train_loader.dataset:
-#     x1 = x.tolist()
-#     y1 = y.tolist()
-#     print(f"X: {x.shape}, Y: {y.shape}")
-
-print()
