@@ -93,43 +93,27 @@ Table of results for each model+property (verified or not, if falsified show the
 |            | in that community.                                        |
 
 
+| Model                | Verified        | Time                                         | Comment/Observation                                                                                  | Counter-Example                                                                                                                                                                                                            |
+| -------------------- | --------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AGL-Inspired Model 1 | Unknown         | 612.83 seconds                               | Model was not complex enough for verifiable results                                                  | –                                                                                                                                                                                                                          |
+| AGL-Inspired Model 2 | Unknown         | 849.15 seconds                               | Model was not complex enough for verifiable results                                                  | –                                                                                                                                                                                                                          |
+| AGL-Inspired Model 3 | SAT             | 616.43 seconds (159.75 for specific example) | Listed counter-example for partition ID 2; was also SAT for partition ID 3                           | C1: [100.   1.   3.  76.  23.  41.  76.  53.   7.  72.  19.  68.  25.   0.
 
-| Model                | Verified        | Counter-Example                           | Time                                         | Comment/Observation                                                                                  |
-| -------------------- | --------------- | --------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| AGL-Inspired Model 1 | Unknown         | –               | 612.83 seconds                               | Model was not complex enough for verifiable results                                                  |
-| AGL-Inspired Model 2 | Unknown         | –               | 849.15 seconds                               | Model was not complex enough for verifiable results                                                  |
-| AGL-Inspired Model 3 | SAT             | C1: [100.   1.  | 616.43 seconds (159.75 for specific example) | Listed counter-example for partition ID 2; was also SAT for partition ID 3
-                                         |   3.  76.  23.  |
-                                         |   41.  76.  53. |
-                                         |   7.  72.  19.  | 
-                                         |   68.  25.   0. |
-                                         |   64.  68.  43. |  
-                                         |   0.   0.  26.] |
-                                         |  C2: [100.   2. |  
-                                         |  3.  76.  23.   | 
-                                         |  41.  76.  53.  |  
-                                         |  7.  72.  19.   | 
-                                         | 68.  25.  0. 64.|  
-                                         | 68.  43.   0.   |
-                                         | 0.  26.]        |
-| AGL-Inspired Model 4 | Primarily UNSAT | C1: [200.   0.  | 348.56 seconds (33.34 for specific example)  | Model UNSAT for all partitions except counter example listed (Partition ID: 1) 
-                                         |   0.  0.  0.    |
-                                         |   0.  0.  7.    |
-                                         |   0.  76.  0.   | 
-                                         |   0.  0.   0.   |
-                                         |   0.  0.  0.    |  
-                                         |   0.   0.  0.]  |
-                                         |  C2: [200.  76. |  
-                                         |   0.  0.  0.    |
-                                         |   0.  0.  7.    |
-                                         |   0.  76.  0.   | 
-                                         |   0.  0.   0.   |
-                                         |   0.  0.  0.    |  
-                                         |   0.   0.  0.]  |
-| AGL-Inspired Model 5 | Unknown         | –               | 417.07 seconds                               | Model may have been too complex enough for verifiable results or timed out before conclusive results |
+  64.  68.  43.   0.   0.  26.]<br>C2: [100.   2.   3.  76.  23.  41.  76.  53.   7.  72.  19.  68.  25.   0.
+
+  64.  68.  43.   0.   0.  26.] |
+| AGL-Inspired Model 4 | Primarily UNSAT | 348.56 seconds (33.34 for specific example)  | Model was UNSAT for all partitions except the counter example listed (Partition ID: 1)               | C1: [200.   0.   0.   0.   0.   0.   0.   7.   0.  76.   0.   0.   0.   0.
+
+   0.   0.   0.   0.   0.   0.]
+
+C2: [200.  76.   0.   0.   0.   0.   0.   7.   0.  76.   0.   0.   0.   0.
+
+   0.   0.   0.   0.   0.   0.]   |
+| AGL-Inspired Model 5 | Unknown         | 417.07 seconds                               | Model may have been too complex enough for verifiable results or timed out before conclusive results | –                                                                                                                                                                                                                          |
+
 
 ## Summary of findings
 
 TODO:
 
-Report will have to clearly explain sources of the data+models, how the models were tailored/reimplemented to run through the verifiers - Please follow project instructions on to how to share artifact+verifier to enable reproduction and grading
+Report will have to clearly explain sources of the data+models, how the models were tailored/reimplemented to run through the verifiers - Please follow project instructions on to how to share artifact+verifier to enable reproduction and grading||
