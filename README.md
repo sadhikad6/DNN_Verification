@@ -96,8 +96,8 @@ Table of results for each model+property (verified or not, if falsified show the
 | -------------------- | --------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------- |
 | AGL-Inspired Model 1 | Unknown         | 612.83 seconds                               | Model was not complex enough for verifiable results                                                  | –               |
 | AGL-Inspired Model 2 | Unknown         | 849.15 seconds                               | Model was not complex enough for verifiable results                                                  | –               |
-| AGL-Inspired Model 3 | SAT             | 616.43 seconds (159.75 for specific example) | Listed counter-example for partition ID 2; was also SAT for partition ID 3                           |                 |
-| AGL-Inspired Model 4 | Primarily UNSAT | 348.56 seconds (33.34 for specific example)  | Model was UNSAT for all partitions except the counter example listed (Partition ID: 1)               |                 |
+| AGL-Inspired Model 3 | SAT             | 616.43 seconds (159.75 for specific example) | Listed counter-example for partition ID 2; was also SAT for partition ID 3                           |  listed below   |
+| AGL-Inspired Model 4 | Primarily UNSAT | 348.56 seconds (33.34 for specific example)  | Model was UNSAT for all partitions except the counter example listed (Partition ID: 1)               |  listed below   |
 | AGL-Inspired Model 5 | Unknown         | 417.07 seconds                               | Model may have been too complex enough for verifiable results or timed out before conclusive results | –               |                                                                                                     |
 
 Model 3 Counter Example: C1: [100.   1.   3.  76.  23.  41.  76.  53.   7.  72.  19.  68.  25.   0.  64.  68.  43.   0.   0.  26.]
