@@ -64,6 +64,8 @@ For fairness verification, the data was loaded through predefined models that we
 
 A paragraph explaining the motivation behind the choice of a particular model+property (being different from anything else verified in VNNcomp competitions is a compelling reason -- make sure to avoid verifying something similar to what has been done in VNNComp 2020-2023)
 
+We were motivated to explore the fairness property as we wanted to ensure there wasn't previous bias in the community contributing to crime predictions. Communities with a certain threshold and prediction of crime shouldn't influence that of one far away or maintain a bad crime rating based on old, temporal data. Fairify, an SMT-based approach to verify individual fairness property in neural network (NN) models, was used to determine this property.
+
 ## Results
 
 Table of results for each model+property (verified or not, if falsified show the counter-example found, time to produce the result, and a comment/observation on the result )
