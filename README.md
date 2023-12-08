@@ -93,25 +93,40 @@ Table of results for each model+property (verified or not, if falsified show the
 |            | in that community.                                        |
 
 
-| Model                | Verified        | Counter-Example                                                                                                                                                                                                            | Time                                         | Comment/Observation                                                                                  |
-| -------------------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| AGL-Inspired Model 1 | Unknown         | –                                                                                                                                                                                                                          | 612.83 seconds                               | Model was not complex enough for verifiable results                                                  |
-| AGL-Inspired Model 2 | Unknown         | –                                                                                                                                                                                                                          | 849.15 seconds                               | Model was not complex enough for verifiable results                                                  |
-| AGL-Inspired Model 3 | SAT             | [100.   1.   3.  76.  23.  41.  76.  53.   7.  72.  19.  68.  25.   0.
 
-  64.  68.  43.   0.   0.  26.]<br><br><br>[100.   2.   3.  76.  23.  41.  76.  53.   7.  72.  19.  68.  25.   0.
-
-  64.  68.  43.   0.   0.  26.] | 616.43 seconds (159.75 for specific example) | Listed counter-example for partition ID 2; was also SAT for partition ID 3                           |
-| AGL-Inspired Model 4 | Primarily UNSAT | [200.   0.   0.   0.   0.   0.   0.   7.   0.  76.   0.   0.   0.   0.
-
-   0.   0.   0.   0.   0.   0.]
-
-<br><br>
-
-[200.  76.   0.   0.   0.   0.   0.   7.   0.  76.   0.   0.   0.   0.
-
-   0.   0.   0.   0.   0.   0.] | 348.56 seconds (33.34 for specific example)  | Model was UNSAT for all partitions except the counter example listed (Partition ID: 1)               |
-| AGL-Inspired Model 5 | Unknown         | –                                                                                                                                                                                                                          | 417.07 seconds                               | Model may have been too complex enough for verifiable results or timed out before conclusive results |
+| Model                | Verified        | Counter-Example                           | Time                                         | Comment/Observation                                                                                  |
+| -------------------- | --------------- | --------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| AGL-Inspired Model 1 | Unknown         | –               | 612.83 seconds                               | Model was not complex enough for verifiable results                                                  |
+| AGL-Inspired Model 2 | Unknown         | –               | 849.15 seconds                               | Model was not complex enough for verifiable results                                                  |
+| AGL-Inspired Model 3 | SAT             | C1: [100.   1.  | 616.43 seconds (159.75 for specific example) | Listed counter-example for partition ID 2; was also SAT for partition ID 3
+                                         |   3.  76.  23.  |
+                                         |   41.  76.  53. |
+                                         |   7.  72.  19.  | 
+                                         |   68.  25.   0. |
+                                         |   64.  68.  43. |  
+                                         |   0.   0.  26.] |
+                                         |  C2: [100.   2. |  
+                                         |  3.  76.  23.   | 
+                                         |  41.  76.  53.  |  
+                                         |  7.  72.  19.   | 
+                                         | 68.  25.  0. 64.|  
+                                         | 68.  43.   0.   |
+                                         | 0.  26.]        |
+| AGL-Inspired Model 4 | Primarily UNSAT | C1: [200.   0.  | 348.56 seconds (33.34 for specific example)  | Model UNSAT for all partitions except counter example listed (Partition ID: 1) 
+                                         |   0.  0.  0.    |
+                                         |   0.  0.  7.    |
+                                         |   0.  76.  0.   | 
+                                         |   0.  0.   0.   |
+                                         |   0.  0.  0.    |  
+                                         |   0.   0.  0.]  |
+                                         |  C2: [200.  76. |  
+                                         |   0.  0.  0.    |
+                                         |   0.  0.  7.    |
+                                         |   0.  76.  0.   | 
+                                         |   0.  0.   0.   |
+                                         |   0.  0.  0.    |  
+                                         |   0.   0.  0.]  |
+| AGL-Inspired Model 5 | Unknown         | –               | 417.07 seconds                               | Model may have been too complex enough for verifiable results or timed out before conclusive results |
 
 ## Summary of findings
 
