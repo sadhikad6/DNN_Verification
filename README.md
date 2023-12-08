@@ -12,6 +12,10 @@ Docker image containing verifiers, models, and properties, and instructions on h
 `src/verify.py -c configs/SE4ML/AGL-STAN.json [--test_num] [n]`  
 
 ### Fairify
+`cd Fairify`  
+`source fenv2/bin/activate`  
+`cd src`  
+`./fairify.sh crime`  
 
 ## Verified Models and Properties
 
