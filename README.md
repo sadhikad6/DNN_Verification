@@ -109,6 +109,8 @@ C2: [200.  76.   0.   0.   0.   0.   0.   7.   0.  76.   0.   0.   0.   0.   0. 
 
 ## Summary of findings
 
+Fairify Findings: Model 4 was the most compatible model and will be focused on in the summary of findings. While the model was primarily UNSAT (i.e. for 3 out of the 4 partitions, it was UNSAT), the last partition was SAT with the counter example involving communities 0 and 76 (the first and last). Fairify is not able to be properly run on the original graph-based artifact, so temporal aspect was not considered in our findings. Future work supports the claim that the temporal feedback loop may increase the fairness of community and result in a verified model. 
+
 TODO:
 
-Report will have to clearly explain sources of the data+models, how the models were tailored/reimplemented to run through the verifiers - Please follow project instructions on to how to share artifact+verifier to enable reproduction and grading||
+Report will have to clearly explain sources of the data+models, how the models were tailored/reimplemented to run through the verifiers - Please follow project instructions on to how to share artifact+verifier to enable reproduction and grading
