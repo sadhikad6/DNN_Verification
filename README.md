@@ -5,9 +5,7 @@ Docker image containing verifiers, models, and properties, and instructions on h
 ## To Run
 
 Build the docker image  
-`docker build --platform linux/amd64 -t dnn_verify .`  
-
-Specifying the platform is necessary to correctly install verifier dependencies.
+`docker build -t dnn_verify .`  
 
 Run the docker image  
 `docker run -it dnn_verify`  
