@@ -1,7 +1,5 @@
 # DNN_Verification
 
-Docker image containing verifiers, models, and properties, and instructions on how to run verifier/s on each model+property
-
 ## To Run
 
 Build the docker image  
@@ -27,8 +25,6 @@ Run the docker image
 `sh fairify.sh crime`  
 
 ## Verified Models and Properties
-
-Table listing each verified model, with its application domain, network type, size (in neurons), input size and type, and the properties verified on the model
 
 |            | AGL-STAN - Chicago Model     |
 |------------|------------------------------|

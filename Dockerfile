@@ -13,16 +13,7 @@ RUN apt-get update \
     && apt-get install -y sudo \
     && rm -rf /var/lib/apt/lists/*
 
-#RUN groupadd --gid $USER_GID $USER_NAME \
-#    && useradd --uid $USER_UID --gid $USER_GID --create-home --shell /bin/bash $USER_NAME
-
 RUN mkdir -p /etc/sudoers.d/
-
-# Add the user to the sudo group and grant sudo privileges
-#RUN usermod -aG sudo $USER_NAME \
-#    && echo "$USER_NAME ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/$USER_NAME
-
-#RUN chown -R $USER_NAME:$USER_NAME /var/lib/apt/lists
 
 USER $USER_NAME
 
@@ -49,7 +40,6 @@ RUN apt-get update && apt-get install -y \
     nano \
     && rm -rf /var/lib/apt/lists/*
 
-#USER $USER_NAME
 # Install pip requirements
 COPY requirements.txt .
 RUN python3 -m pip install --upgrade pip & python3 -m pip install --upgrade setuptools
