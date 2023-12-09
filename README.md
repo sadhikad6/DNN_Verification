@@ -19,6 +19,7 @@ Run the docker image
 `cd Fairify`  
 `python3.7 -m venv fenv`  
 `source fenv/bin/activate`  
+`pip install -r requirements.txt`  
 `cd src`  
 `./fairify.sh crime`  
 
