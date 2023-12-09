@@ -4,6 +4,9 @@ Docker image containing verifiers, models, and properties, and instructions on h
 
 ## To Run
 
+Run the docker image  
+`docker run -it dnn_verify /bin/bash`  
+
 ### MN-BAB
 
 `cd mn-bab-verification`  
@@ -12,6 +15,7 @@ Docker image containing verifiers, models, and properties, and instructions on h
 `src/verify.py -c configs/SE4ML/AGL-STAN.json [--test_num] [n]`  
 
 ### Fairify
+
 `cd Fairify`  
 `source fenv2/bin/activate`  
 `cd src`  
@@ -31,8 +35,6 @@ Table listing each verified model, with its application domain, network type, si
 |Properties  |Robustness                    |
 |            |Adversarial Examples          |
 |            |Spatial Invariance            |
-|            |                              |
-|            |                              |
 
 | Verified Model       | Application Domain | Network Type                 | Size (in  neurons) | Input Size and Type | Properties |
 | -------------------- | ------------------ | ---------------------------- | ------------------ | ------------------- | ---------- |
@@ -64,7 +66,7 @@ For fairness verification, the data was loaded through predefined models that we
 
 A paragraph explaining the motivation behind the choice of a particular model+property (being different from anything else verified in VNNcomp competitions is a compelling reason -- make sure to avoid verifying something similar to what has been done in VNNComp 2020-2023)
 
-We were motivated to explore the fairness property as we wanted to ensure there wasn't previous bias in the community contributing to crime predictions. Communities with a certain threshold and prediction of crime shouldn't influence that of one far away or maintain a bad crime rating based on old, temporal data. Fairify, an SMT-based approach to verify individual fairness property in neural network (NN) models, was used to determine this property.
+We were motivated to explore the fairness property as we wanted to ensure there wasn't previous bias in the community contributing to crime predictions. Communities with a certain threshold and prediction of crime shouldn't influence that of one far away or maintain a bad crime rating based on old, temporal data. Fairify, an SMT-based approach to verify individual fairness property in neural network (NN) models, was used to determine this property. Additionally, crime prediction is an important aspect to allocating resources to specific communities. We can determine what type of resources are needed and help correctly predicting which crimes are gonna happen where and when. This will allow us to reduce the amount of funding that is necessary to reduce crime. The model that we explore claims that it provide better insight into the non-linear coorelations in temporal and spatial dependencies of crime.
 
 ## Results
 
@@ -112,11 +114,8 @@ C2: [100.   2.   3.  76.  23.  41.  76.  53.   7.  72.  19.  68.  25.   0.  64. 
 Model 4 Counter Example: C1: [200.   0.   0.   0.   0.   0.   0.   7.   0.  76.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
 C2: [200.  76.   0.   0.   0.   0.   0.   7.   0.  76.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
 
-
 ## Summary of findings
 
-Fairify Findings: Model 4 was the most compatible model and will be focused on in the summary of findings. While the model was primarily UNSAT (i.e. for 3 out of the 4 partitions, it was UNSAT), the last partition was SAT with the counter example involving communities 0 and 76 (the first and last). Fairify is not able to be properly run on the original graph-based artifact, so temporal aspect was not considered in our findings. Future work supports the claim that the temporal feedback loop may increase the fairness of community and result in a verified model. 
+MN-BAB Findings: The model was not very robust to perturbations in data when manipulating crime statistics for a specific community. It would generally predict that a crime type would happen even if previous data indicated low likelihood because other crimes were committed. However, the model turned out to be robustness in its spatial dimension. We found that manipulation for distant communities did not affect the prediction which is considered a positive when reviewing robustness properties.
 
-TODO:
-
-Report will have to clearly explain sources of the data+models, how the models were tailored/reimplemented to run through the verifiers - Please follow project instructions on to how to share artifact+verifier to enable reproduction and grading
+Fairify Findings: Model 4 was the most compatible model and will be focused on in the summary of findings. While the model was primarily UNSAT (i.e. for 3 out of the 4 partitions, it was UNSAT), the last partition was SAT with the counter example involving communities 0 and 76 (the first and last). Fairify is not able to be properly run on the original graph-based artifact, so temporal aspect was not considered in our findings. Future work supports the claim that the temporal feedback loop may increase the fairness of community and result in a verified model.
