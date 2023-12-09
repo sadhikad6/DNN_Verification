@@ -4,24 +4,29 @@ Docker image containing verifiers, models, and properties, and instructions on h
 
 ## To Run
 
+Build the docker image  
+`docker build --platform linux/amd64 -t dnn_verify .`  
+
+Specifying the platform is necessary to correctly install verifier dependencies.
+
 Run the docker image  
-`docker run -it dnn_verify /bin/bash`  
+`docker run -it dnn_verify`  
 
 ### MN-BAB
 
 `cd mn-bab-verification`  
 `source mn-bab-env/bin/activate`  
 `export PYTHONPATH=$PYTHONPATH:$PWD`  
-`src/verify.py -c configs/SE4ML/AGL-STAN.json [--test_num] [n]`  
+`python3 src/verify.py -c configs/SE4ML/AGL-STAN.json [--test_num] [n]`  
 
 ### Fairify
 
 `cd Fairify`  
-`python3.7 -m venv fenv`  
+`python3 -m venv fenv`  
 `source fenv/bin/activate`  
 `pip install -r requirements.txt`  
 `cd src`  
-`./fairify.sh crime`  
+`sh fairify.sh crime`  
 
 ## Verified Models and Properties
 
