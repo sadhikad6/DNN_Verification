@@ -1,0 +1,5 @@
+Partition_ID,Verification,SAT_count,UNSAT_count,UNK_count,h_attempt,h_success,B_compression,S_compression,ST_compression,H_compression,T_compression,SV-time,S-time,HV-Time,H-Time,Total-Time,C-check,V-accurate,Original-acc,Pruned-acc,Acc-dec,C1,C2
+1,unknown,0,0,1,1,0,0.008,0.0,0.008,0.032,0.04,100.686,118.86,102.692,104.67,223.53,0,0,0.2021,1.0,-,,
+2,unknown,0,0,2,1,0,0.0,0.0,0.0,0.032,0.032,104.214,121.62,102.558,104.58,226.2,0,0,0.2021,1.0,-,,
+3,unknown,0,0,3,1,0,0.024,0.0,0.024,0.072,0.096,101.981,121.44,100.503,102.31,223.75,0,0,0.2021,1.0,-,,
+4,unknown,0,0,4,1,0,0.0,0.0,0.0,0.024,0.024,101.706,114.93,103.446,105.51,220.44,0,0,0.2021,1.0,-,,
